@@ -1,0 +1,28 @@
+git config --global user.name "tom"
+
+git config --global user.email "thomas.ceo1312@gmail.com"
+
+git remote add https://github.com/thomastom13/gittryin.git
+
+chnage add to set-up origin to change any existing remotes
+
+git add .
+
+git status
+
+git remote -v
+
+git commit -m "todoapp imports done"
+
+git status
+
+git log
+
+git checkout copied_number(commit version)
+
+git fetch
+
+git pull
+
+
+
