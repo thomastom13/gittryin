@@ -1,3 +1,6 @@
+git --version -->gets to know whether git is installed
+git config --list ->if already in use of git with name then it will show it --> to end this command enter: q
+
 git config --global user.name "tom"
 
 git config --global user.email "thomas.ceo1312@gmail.com"
