@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add post</title>
+    <link rel="stylesheet" href="../bootstrapp/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+    
+        <a class="navbar-brand" href="#">EOC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index3.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              </ul>
+              </div>
+    
+      </nav>
+<br>
+
+<div class="container col-6 shadow rounded mt-3 pb-3 mb-3">
+    <form>
+        <center><h2>Add Post</h2></center>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Title">
+          </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Title Tag</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Title tag">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Body</label>
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+          </div>
+
+          <!-- <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Title">
+            </div>
+          </div> -->
+
+
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Category</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Coding</option>
+              <option>Quiz</option>
+              <option>Hackathon</option>
+              <option>Arts</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Snippet</label>
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="4"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Example file input</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+       
+        <div class="form-group row">
+          <div class="col-sm-10">
+              <a href="index3.html" style="text-decoration: none;" >
+              <button type="submit" class="btn button btn-primary" aria-hidden="true">Submit</a></button>
+              <div class="alert alert-success" role="alert">
+            
+            <strong>Well done!</strong> You successfully read this
+            important alert message.
+        </div>  
+        </div>
+        
+    </div>
+
+        <style>.alert{
+            display: none;
+        }
+        a{
+        color:aliceblue}
+    </style> 
+
+        
+
+        
+      </form>
+      </div>
+<script>
+    $(document).ready(function(){
+        $('btn').click(function(){
+            $('.alert').show()
+        }) 
+    });
+</script>
+
+</body>
+<script src="../bootstrapp/js/jquery.min.js"></script>
+<script src="../bootstrapp/js/bootstrap.min.js"></script>
+</html>
